@@ -5,7 +5,7 @@ const About = () => {
     <div className="mt-20">
       <div className="flex flex-col lg:flex-row font-sans items-center">
         {/* IMAGE SECTION */}
-        <div className="w-full lg:w-1/2 flex justify-center items-center px-5">
+        <div className="w-full lg:w-1/2 flex justify-center items-center px-5 hidden md:block">
           <Image
             src="/businessman-holding-cup.png"
             alt="about"
@@ -35,7 +35,7 @@ const About = () => {
           </p>
 
           {/* STATS */}
-          <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-6 sm:gap-10 lg:gap-20 mt-8">
+          <div className="flex  sm:flex-row justify-center lg:justify-start gap-6 sm:gap-10 lg:gap-20 mt-8">
             <div className="text-center lg:text-left">
               <div className="bg-gradient-to-l from-amber-600 via-amber-500 to-amber-300 bg-clip-text text-transparent font-bold text-xl sm:text-2xl">
                 B.Tech

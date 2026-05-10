@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Card = ({ name, logo, progress }: any) => {
   return (
-    <div className="w-full max-w-xs">
+    <div className="w-full max-w-xs ">
       <div className="border-2 border-l-4 border-t-4 border-gray-700 rounded-xl px-4 sm:px-5 py-5 bg-gray-800 hover:scale-105 transition duration-300">
         {/* TOP */}
         <div className="flex items-center justify-between gap-3">

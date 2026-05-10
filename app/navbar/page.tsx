@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="sticky top-0 z-50 px-4 sm:px-6 lg:px-10">
+    <div className="sticky top-0 z-50 px-4 sm:px-6 lg:px-10 mb-10 md:mb-0">
       {/* NAVBAR */}
       <div className="lg:w-[800px] lg:mx-auto flex items-center justify-between bg-gradient-to-r from-gray-800 to-gray-900 border-t-2 border-gray-700 rounded-lg py-2 px-4 mt-3 shadow-lg">
         {/* LOGO */}

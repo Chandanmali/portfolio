@@ -20,7 +20,7 @@ const Hero = () => {
         </h1>
 
         {/* Description */}
-        <p className="text-gray-300 max-w-xl">
+        <p className="text-gray-300 max-w-xl ">
           A passionate React.js & Next.js Developer 💻🚀 who loves building
           modern, responsive web applications 🌐 I focus on creating clean UI
           🎨, smooth user experiences ⚡, and scalable solutions 📈 With skills
